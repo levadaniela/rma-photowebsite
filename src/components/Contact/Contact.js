@@ -3,6 +3,7 @@ import Typography from "@material-ui/core/Typography";
 import TextField from "@material-ui/core/TextField";
 import TextareaAutosize from "@material-ui/core/TextareaAutosize";
 import MenuItem from "@material-ui/core/MenuItem";
+import Button from "@material-ui/core/Button";
 import { makeStyles } from "@material-ui/core/styles";
 
 const newOptions = [
@@ -28,22 +29,23 @@ export default function Contact() {
   };
   return (
     <div className={classes.root}>
-      <Typography variant="h4" gutterBottom>
-        ---Contact---
-      </Typography>
-      <Typography variant="h1" component="h2" gutterBottom>
-        Stabileste o programare
-      </Typography>
-      <Typography variant="h6" gutterBottom>
-        Rodica Musteata
-      </Typography>
-      <Typography variant="h6" gutterBottom>
-        rodica.musteata@yahoo.com
-      </Typography>
-      <Typography variant="h6" gutterBottom>
-        077778888999
-      </Typography>
-
+      <div>
+        <Typography className="contactW" variant="h3" gutterBottom>
+          - CONTACT -
+        </Typography>
+        <Typography variant="h1" component="h2" gutterBottom>
+          Stabileste o programare
+        </Typography>
+        <Typography variant="h6" gutterBottom>
+          Rodica Musteata
+        </Typography>
+        <Typography variant="h6" gutterBottom>
+          musteata_rodica@yahoo.com
+        </Typography>
+        <Typography variant="h6" gutterBottom>
+          077778888999
+        </Typography>
+      </div>
       <form className={classes.root} noValidate autoComplete="off">
         <div>
           <TextField
@@ -106,6 +108,9 @@ export default function Contact() {
             // }
           />
         </div>
+        <Button variant="contained" color="primary">
+          Trimite
+        </Button>
       </form>
     </div>
   );
