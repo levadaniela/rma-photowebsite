@@ -8,21 +8,22 @@ import { BrowserRouter, Route, Link } from "react-router-dom";
 import "./App.css";
 function App() {
   return (
-    <BrowserRouter>
-      <div className="App">
+    <div className="App">
+      {" "}
+      <BrowserRouter>
         <header className="header">
           <img src={logo} className="logo" alt="Logo" />
           <Link to="/contact" className="item">
-            Contact
+            CONTACT
           </Link>
           <Link to="/portofolio" className="item">
-            Portofolio
+            PORTOFOLIO
           </Link>{" "}
           <Link to="/about" className="item">
-            About
+            DESPRE MINE
           </Link>
           <Link to="/" className="item">
-            Home
+            HOME
           </Link>
         </header>
 
@@ -30,8 +31,8 @@ function App() {
         <Route path="/portofolio" component={Portofolio} />
         <Route path="/contact" component={Contact} />
         <Route path="/about" component={About} />
-      </div>
-    </BrowserRouter>
+      </BrowserRouter>{" "}
+    </div>
   );
 }
 
