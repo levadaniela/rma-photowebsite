@@ -1,0 +1,22 @@
+.aboutTxt {
+  display: block;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.txt {
+  line-height: 200%;
+  letter-spacing: 2px;
+}
+.titlePageA {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  letter-spacing: 10px;
+  font-size: 40px;
+  margin-top: 40px;
+  color: aqua;
+}
+.programareAbt {
+  margin-top: 20%;
+  margin-bottom: 10%;
+  color: blue;
+}

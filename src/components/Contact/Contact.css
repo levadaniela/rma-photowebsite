@@ -1,6 +1,7 @@
-.titlePage {
+.titlePageC {
   font-family: Georgia, "Times New Roman", Times, serif;
-  letter-spacing: 5px;
+  letter-spacing: 10px;
   font-size: 40px;
   margin-top: 40px;
+  color: aqua;
 }

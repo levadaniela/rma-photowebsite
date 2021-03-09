@@ -51,10 +51,12 @@ export default function Contact() {
   }
   return (
     <div className={classes.root}>
-      <div>
-        <Typography className="titlePage" variant="h3" gutterBottom>
+      <div className="titlePageC">
+        <Typography variant="h3" gutterBottom>
           - CONTACT -
         </Typography>
+      </div>
+      <div>
         <Typography variant="h1" component="h2" gutterBottom>
           Stabileste o programare
         </Typography>

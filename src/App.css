@@ -17,7 +17,6 @@
 
 .item {
   float: right;
-  display: inline-block;
   font-size: 20px;
   color: black;
   text-align: center;
@@ -32,6 +31,7 @@
   display: block;
   border-radius: 50%;
   text-indent: -9999px;
+  margin-left: 10px;
 }
 .mesaj {
   margin-top: 5mm;

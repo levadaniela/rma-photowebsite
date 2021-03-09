@@ -12,7 +12,7 @@ const useStyles = makeStyles(() => ({
     height: 300,
   },
   media: {
-    height: 240,
+    height: 340,
   },
 }));
 
