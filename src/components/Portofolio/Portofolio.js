@@ -1,7 +1,7 @@
 import React from "react";
 import Typography from "@material-ui/core/Typography";
 import { makeStyles } from "@material-ui/core/styles";
-
+import Animation from "../Animation/Animation";
 const useStyles = makeStyles({
   root: {
     width: "100%",
@@ -16,6 +16,7 @@ export default function Portofolio() {
       <Typography variant="h4" gutterBottom>
         ---Portofolio Page---
       </Typography>
+      <Animation />
     </div>
   );
 }

@@ -1,10 +1,10 @@
 import React from "react";
-import CardPhoto from "../Card";
+import CardPhoto from "../Card/Card";
 import Typography from "@material-ui/core/Typography";
 import "./About.css";
 import Button from "@material-ui/core/Button";
 import { makeStyles } from "@material-ui/core/styles";
-import AboutMePhoto from "../../images/10.jpg";
+import AboutMePhoto from "../../images/1.jpg";
 const useStyles = makeStyles({
   root: {
     maxWidth: 345,
@@ -20,12 +20,12 @@ export default function About() {
   return (
     <div>
       <div className="titlePageA">
-        <Typography variant="h3" gutterBottom>
-          - ABOUT -
+        <Typography variant="h4" gutterBottom>
+          __ DESPRE MINE __
         </Typography>
       </div>
 
-      <Typography variant="h1" component="h2" gutterBottom>
+      <Typography variant="h2" component="h2" gutterBottom>
         Sunt Rodica Musteata
       </Typography>
       <div className="aboutTxt">
@@ -47,7 +47,7 @@ export default function About() {
         </Typography>
       </div>
 
-      <CardPhoto image={AboutMePhoto} title="ABOUTME" TitlePhoto="ABOUT ME" />
+      <CardPhoto image={AboutMePhoto} title="ABOUTME" />
 
       <div className="programareAbt">
         {" "}

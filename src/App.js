@@ -5,7 +5,9 @@ import Portofolio from "./components/Portofolio/Portofolio";
 import Home from "./components/Home/Home";
 import Contact from "./components/Contact/Contact";
 import { BrowserRouter, Route, Link } from "react-router-dom";
+
 import "./App.css";
+
 function App() {
   return (
     <div className="App">
