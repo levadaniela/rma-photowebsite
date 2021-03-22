@@ -5,14 +5,20 @@ import "./About.css";
 import Button from "@material-ui/core/Button";
 import { makeStyles } from "@material-ui/core/styles";
 import AboutMePhoto from "../../images/1.jpg";
-const useStyles = makeStyles({
+import Contact from "../Contact/Contact";
+import { BrowserRouter, Route, Link } from "react-router-dom";
+
+const useStyles = makeStyles ((theme) => ({
   root: {
     maxWidth: 345,
   },
   media: {
     height: 140,
   },
-});
+   margin: {
+    margin: theme.spacing(1),
+  },
+}));
 
 export default function About() {
   const classes = useStyles();
@@ -45,14 +51,18 @@ export default function About() {
             </Typography>
           </Typography>
         </Typography>
+      
+      
       </div>
-
-      <CardPhoto image={AboutMePhoto} title="ABOUTME" />
-
-      <div className="programareAbt">
+       <div className="mePhoto">
+        
+<CardPhoto image={AboutMePhoto} title="ABOUTME" />
+      
+</div>
+      <section className="programareAbt">
         {" "}
-        <Typography className="titlePageA" variant="h3" gutterBottom>
-          - Programare -
+        <Typography className="titlePageA" variant="h4" gutterBottom>
+          _ PROGRAMARE _
         </Typography>
         <Typography variant="h2" component="h2" gutterBottom>
           Te astept
@@ -60,11 +70,14 @@ export default function About() {
         <Typography variant="h6" gutterBottom>
           in studioul meu pentru fotografie de maternitate, nou nascut, bebelusi
           si familie.
-        </Typography>
-        <Button variant="contained" color="primary">
-          Stabileste o programare
-        </Button>
-      </div>
+        </Typography> 
+        <Button variant="contained" color="primary" href="/contact" size="large" className={classes.margin}>
+
+            Stabileste o programare
+
+          </Button>
+
+      </section>
     </div>
   );
 }

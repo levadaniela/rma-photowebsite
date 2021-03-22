@@ -1,3 +1,4 @@
+
 .aboutTxt {
   display: block;
   font-family: Georgia, "Times New Roman", Times, serif;
@@ -15,7 +16,13 @@
   margin-top: 40px;
 }
 .programareAbt {
-  margin-top: 20%;
-  margin-bottom: 10%;
-  color: blue;
+  margin: 120px 10px;
+  padding: 20px 0px 100px 0px;
+background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%) !important;
+  border-radius: 5px;
 }
+.mePhoto{
+  display: flex;
+  justify-content: center;
+  }

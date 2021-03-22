@@ -48,7 +48,7 @@ export default function Animation() {
     config: config.molasses,
   });
   useEffect(
-    () => void setInterval(() => set((state) => (state + 1) % 4), 4000),
+    () => void setInterval(() => set((state) => (state + 1) % 13), 4000),
     []
   );
   return transitions.map(({ item, props, key }) => (

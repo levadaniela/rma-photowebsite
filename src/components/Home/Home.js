@@ -10,7 +10,7 @@ import "./Home.css";
 
 export default function Home() {
   return (
-    <div>
+    <div className="Home">
       <div className="titlePageH">
         <Typography variant="h4" gutterBottom>
           ___ BINE AI VENIT ___
