@@ -1,14 +1,11 @@
-
 .aboutTxt {
   display: block;
   font-family: Georgia, "Times New Roman", Times, serif;
   margin-left: 20%;
   margin-right: 20%;
+  letter-spacing: 4px;
 }
-.txt {
-  line-height: 200%;
-  letter-spacing: 2px;
-}
+
 .titlePageA {
   font-family: Georgia, "Times New Roman", Times, serif;
   letter-spacing: 10px;
@@ -16,13 +13,22 @@
   margin-top: 40px;
 }
 .programareAbt {
-  margin: 120px 10px;
-  padding: 20px 0px 100px 0px;
-background: rgb(238,174,202);
-background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%) !important;
+  margin: 100px 10px;
+  padding: 20px 0px 80px 0px;
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  ) !important;
   border-radius: 5px;
 }
-.mePhoto{
+.mePhoto {
   display: flex;
   justify-content: center;
-  }
+}
+#abtMePhoto {
+  width: 700px;
+  height: 700px;
+  border-radius: 50%;
+}

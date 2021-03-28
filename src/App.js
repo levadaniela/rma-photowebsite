@@ -5,7 +5,7 @@ import Portofolio from "./components/Portofolio/Portofolio";
 import Home from "./components/Home/Home";
 import Contact from "./components/Contact/Contact";
 import { BrowserRouter, Route, Link } from "react-router-dom";
-
+import FacebookIcon from "@material-ui/icons/Facebook";
 import "./App.css";
 
 function App() {
@@ -15,6 +15,12 @@ function App() {
       <BrowserRouter>
         <header className="header">
           <img src={logo} className="logo" alt="Logo" />
+          <a
+            href="https://www.facebook.com/Photography-by-Rodica-Musteata-172389707638603"
+            className="item"
+          >
+            <FacebookIcon fontSize="large" />
+          </a>
           <Link to="/contact" className="item">
             CONTACT
           </Link>

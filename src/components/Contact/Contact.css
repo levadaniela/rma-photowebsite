@@ -3,5 +3,17 @@
   letter-spacing: 10px;
   font-size: 40px;
   margin-top: 40px;
-  color: aqua;
+}
+.button {
+  transition-duration: 0.4s;
+  padding: 14px 40px;
+  font-size: 20px;
+}
+
+.button:hover {
+  background-color: turquoise;
+  color: white;
+}
+.mesaj {
+  font-size: 20px;
 }

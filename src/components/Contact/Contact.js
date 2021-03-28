@@ -52,14 +52,10 @@ export default function Contact() {
   return (
     <div className={classes.root}>
       <div className="titlePageC">
-        <Typography variant="h3" gutterBottom>
-          - CONTACT -
-        </Typography>
+        <h1>_ CONTACT _</h1>
+        <h2>Stabileste o programare</h2>
       </div>
       <div>
-        <Typography variant="h1" component="h2" gutterBottom>
-          Stabileste o programare
-        </Typography>
         <Typography variant="h6" gutterBottom>
           Rodica Musteata
         </Typography>
@@ -67,7 +63,7 @@ export default function Contact() {
           musteata_rodica@yahoo.com
         </Typography>
         <Typography variant="h6" gutterBottom>
-          077778888999
+          07424714686
         </Typography>
       </div>
       <div>
@@ -112,19 +108,10 @@ export default function Contact() {
           <div>
             <TextField
               id="outlined-secondary"
-              select
               variant="outlined"
               label="Subiect"
-              value={options}
-              onChange={handleChange}
               name="subiect"
-            >
-              {newOptions.map((option) => (
-                <MenuItem key={option.value} value={option.value}>
-                  {option.value}
-                </MenuItem>
-              ))}
-            </TextField>
+            />
           </div>
           <div>
             <TextareaAutosize
@@ -133,13 +120,9 @@ export default function Contact() {
               placeholder="Mesajul tau"
               varian="standard"
               name="mesaj"
-              // value={content}
-              // onChange={(e) =>
-              //   updateCardText({ source, id, content: e.target.value })
-              // }
             />
           </div>
-          <button>Submit</button>
+          <button className="button">Submit</button>
         </form>
       </div>
     </div>

@@ -1,5 +1,4 @@
 import React from "react";
-import Typography from "@material-ui/core/Typography";
 import Animation from "../Animation/Animation";
 import CardPhoto from "../Card/Card";
 import NewBorn from "../../images/9.jpg";
@@ -12,28 +11,20 @@ export default function Home() {
   return (
     <div className="Home">
       <div className="titlePageH">
-        <Typography variant="h4" gutterBottom>
-          ___ BINE AI VENIT ___
-        </Typography>
-        <Typography variant="h2" component="h2" gutterBottom>
-          Sunt Rodica Musteata
-        </Typography>
+        <h1>_ BINE AI VENIT _</h1>
+        <h2>Sunt Rodica Musteata</h2>
       </div>
       <Animation />
       <div className="aboutTxt">
-        <Typography className="txt" variant="h6" gutterBottom>
+        <h3 className="txt">
           mama, fotograf de familie si nou nascuti aflat la inceput de drum. Ma
           bucur ca ai ajuns pe pagina mea, locul in care iubirea pentru copii
           este surprinsa in cele mai frumoase imagini.
-        </Typography>
+        </h3>
       </div>
       <div className="titlePageHP">
-        <Typography variant="h4" gutterBottom>
-          ___ PORTOFOLIU ___
-        </Typography>
-        <Typography variant="h2" component="h2" gutterBottom>
-          Categorii de fotografii
-        </Typography>
+        <h1>_ PORTOFOLIU _</h1>
+        <h2>Categorii de fotografii</h2>
       </div>
       <section className="myPhoto">
         <div className="row">
